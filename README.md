@@ -18,11 +18,19 @@ This is a Streamlit-based web application for visualizing heart data from a CSV 
 1. Clone this repository:
 
    ```sh
-   https://github.com/Saumik17rkl/Heart-Data-Visualization-App/app.py
+   git clone https://github.com/Saumik17rkl/Heart-Data-Visualization-App.git
    cd heart-data-visualization
    ```
 
-2. Install required dependencies:
+2. Create a virtual environment (optional but recommended):
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows
+   ```
+
+3. Install required dependencies:
 
    ```sh
    pip install -r requirements.txt
@@ -58,8 +66,4 @@ heart-data-visualization/
 
 - If `heart.csv` is missing, an error message will be displayed.
 - Any unexpected errors will be caught and shown in the app.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
